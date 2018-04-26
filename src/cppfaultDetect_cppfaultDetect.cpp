@@ -5,6 +5,7 @@
 #include <vector>
 #include "ssconfig.hpp"
 
+//GGQ test
 JNIEXPORT jint JNICALL Java_cppfaultDetect_cppfaultDetect_fault_1detect
 (JNIEnv *env, jclass, jcharArray fname_char_array, jobjectArray position_array, jint k) {
 	jchar *jchar_pointer = env->GetCharArrayElements(fname_char_array, NULL);
